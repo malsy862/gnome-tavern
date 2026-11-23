@@ -1,0 +1,17 @@
+# Local secrets — NEVER commit. Holds the gnokey keybase, the key
+# passphrase file and seed-phrase capture files for the testnet
+# deployer/player accounts.
+.secrets/
+
+# Key material of any kind
+*.key
+*.pem
+keypass*.txt
+*mnemonic*
+*seed-phrase*
+keystore/
+
+# Local build / tooling noise
+*.log
+/tmp/
+.DS_Store
